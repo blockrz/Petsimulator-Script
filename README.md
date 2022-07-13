@@ -1,4 +1,4 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{     
+--[[ game:GetService("StarterGui"):SetCore("SendNotification",{     
 
     Title = "NEXOA",     
     
@@ -3765,4 +3765,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
     
        loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
     
-    end)
+    end) ]]
+    
+    else game.Players.LocalPlayer:kick("Game script outdated!") wait(20) game:Shutdown() end
