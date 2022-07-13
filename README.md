@@ -1,6 +1,6 @@
---[[ game:GetService("StarterGui"):SetCore("SendNotification",{     
+ game:GetService("StarterGui"):SetCore("SendNotification",{
 
-    Title = "NEXOA",     
+    -- [[ Title = "NEXOA",     
     
     Text = "NEXOA is loading!",
     
